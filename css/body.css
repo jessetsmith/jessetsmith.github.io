@@ -1,6 +1,6 @@
 body {
-    background-image: url(../assets/sunset.jpg);
+    background-image: url(../assets/sunset.jpg), url(../assets/3840x2160-arsenic-solid-color-background.jpg);
     background-size: 100%;
-  
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-color: #343a40;
 }

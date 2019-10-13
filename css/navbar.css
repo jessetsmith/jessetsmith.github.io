@@ -3,7 +3,19 @@
     height: 20%;
     color: var(--black);
     margin-right: 55%;
-    font-family: var(--font-one)
+    font-family: var(--font-one);
+}
+
+.nav-left { 
+    size: 5em;
+    width: 15%;
+    float: left;
+    
+}
+
+#logo {
+    background-image: url('../Portfolio/assets/CAPPELLA _ DESIGNS/4.png');
+    z-index: 2;
     
 }
 
@@ -35,4 +47,8 @@
   .nav-link:hover:before,  .nav-link:focus:before,  .nav-link:active:before {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+  }
+
+  .navbar-nav {
+      margin-left: -.5rem;
   }

@@ -1,10 +1,16 @@
 .homeBody {
+    background-image: url(../assets/martin-fu-jmJ62_Zq1bo-unsplash.jpg), url(../assets/3840x2160-arsenic-solid-color-background.jpg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #343a40;
+}
+.portfolioBody {
     background-image: url(../assets/sunset.jpg), url(../assets/3840x2160-arsenic-solid-color-background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #343a40;
 }
-
 .aboutBody {
     background-image: url(../assets/harli-marten-n7a2OJDSZns-unsplash.jpg), url(../assets/3840x2160-arsenic-solid-color-background.jpg);
     background-size: 100%;
@@ -13,7 +19,10 @@
 }
 
 .col-sm-5 {
+   
     height: 15rem;
+    margin-top: 4%;
+    margin-left: -2%;
 
     
 }
@@ -31,7 +40,7 @@
 
 .highlightOne {
     background-image: url(../assets/static-layout-screenshot.png);
-    background-size:100%;
+    background-size:130%;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 2;
@@ -41,7 +50,7 @@
 
 .highlightTwo {
     background-image: url(../assets/grr-screenshot.png);
-    background-size: 100%;
+    background-size: 130%;
     background-position: center;
     background-repeat: no-repeat;
     margin: auto;
@@ -53,7 +62,7 @@
 
 .highlightThree {
     background-image: url(../assets/api-project-screenshot.png);
-    background-size: 100%;
+    background-size: 130%;
     background-position: center;
     background-repeat: no-repeat;
     margin: auto;
@@ -63,7 +72,41 @@
     margin: auto;
 }
 
-.hvr-float-shadow {
+.links{
+    margin-top: -5%;
+}
+
+.linkOne{
+    background-image: url(../assets/linkedin.png);
+    background-size:60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    height: 100%;
+    margin: auto;
+}
+
+.linkTwo {
+    background-image: url(../assets/github.png);
+    background-size:60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    height: 100%;
+    margin: auto;
+}
+
+.linkThree {
+    background-image: url(../assets/professional-profile-with-image.png);
+    background-size:60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    height: 100%;
+    margin: auto;
+}
+
+.col-sm-4 {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -104,3 +147,12 @@
     transform: translateY(5px);
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
   }
+  
+  a {
+      cursor: pointer;
+  }
+
+  .col-sm-7 {
+      height: 45em;
+  }
+

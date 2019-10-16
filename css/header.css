@@ -2,7 +2,7 @@
     margin-left: 45%;
     opacity: .7;
     font-family: var(--font-one);
-
+    z-index: 2;
 
 }
 

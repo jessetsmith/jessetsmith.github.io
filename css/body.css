@@ -3,18 +3,21 @@
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #343a40;
 }
 .portfolioBody {
     background-image: url(../assets/sunset.jpg), url(../assets/3840x2160-arsenic-solid-color-background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #343a40;
 }
 .aboutBody {
-    background-image: url(../assets/harli-marten-n7a2OJDSZns-unsplash.jpg), url(../assets/3840x2160-arsenic-solid-color-background.jpg);
+    background-image: url(../assets/diego-ph-VmRxRz0gD_s-unsplash.jpg), url(../assets/3840x2160-arsenic-solid-color-background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #343a40;
 }
 
@@ -33,9 +36,14 @@
     background: #343a40;
     margin-top: 2rem;
     border: .5em solid var(--red);
-    border-radius: 1em 1em 1em 1em;
-    
-    
+    border-radius: 1em 1em 1em 1em;    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .highlightOne {
@@ -46,6 +54,8 @@
     z-index: 2;
     height: 100%;
     margin: auto;
+    text-align: center;
+
 }
 
 .highlightTwo {
@@ -58,6 +68,8 @@
     z-index: 2;
     height: 100%;
     margin: auto;
+    text-align: center;
+
 }
 
 .highlightThree {
@@ -70,6 +82,36 @@
     z-index: 2;
     height: 100%;
     margin: auto;
+    text-align: center;
+
+}
+
+.highlightFour {
+    background-image: url(../assets/MuvieBuff-screenshot.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: auto;
+    z-index: 2;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.highlightFive {
+    background-image: url(../assets/Digital-Renaissance-screenshot.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: auto;
+    z-index: 2;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+
 }
 
 .links{

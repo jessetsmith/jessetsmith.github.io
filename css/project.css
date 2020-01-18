@@ -1,13 +1,13 @@
 #apiLink {
     color: white;
-    margin-left: 3.5rem;
+    /* margin-left: 3.5rem; */
     font-family: var(--font-one);
     margin-top: 10%;
 }
 
 #creatureLink {
     color: white;
-    margin-left: 3.5rem;
+    /* margin-left: 3.5rem; */
     font-family: var(--font-one);
     margin-top: 10%;
     
@@ -15,11 +15,28 @@
 
 #staticLink {
     color: white;
-    margin-left: 2.5rem;
+    /* margin-left: 2.5rem; */
     font-family: var(--font-one);
     margin-top: 10%;
 
     
+}
+
+#muvieBuffLink {
+  color: white;
+  /* margin-left: 2.5rem; */
+  font-family: var(--font-one);
+  margin-top: 10%;
+  
+}
+
+#drLink {
+  color: white;
+  /* margin-left: 2.5rem; */
+  font-family: var(--font-one);
+  margin-top: 10%;
+
+  
 }
 
 #linkedInLink {
